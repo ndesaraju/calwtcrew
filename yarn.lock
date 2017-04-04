@@ -2692,7 +2692,7 @@ function-bind@^1.0.2, function-bind@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.0.tgz#16176714c801798e4e8f2cf7f7529467bb4a5771"
 
-gatsby@^0.12.6:
+gatsby@^0.12.39:
   version "0.12.39"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-0.12.39.tgz#95ae50c3a91185f73858b210294e3ce10b77f295"
   dependencies:
