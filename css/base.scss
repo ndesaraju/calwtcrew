@@ -1,4 +1,6 @@
 @import './vendors/normalize.css';
+@import 'aboutme.scss';
+@import 'navbar.scss';
 
 *,
 *:after,
@@ -10,8 +12,41 @@
 }
 
 body {
+  font-family: 'Montserrat', sans-serif;
   position: relative;
   width: 100%;
   height: 100%;
 }
 
+.page__header {
+  font-size: 45px;
+  text-align: center;
+  font-weight: 500;
+  margin: 3%;
+}
+
+.section__header {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.section__content {
+  p {
+    text-align: justify;
+    margin: 1% 13%;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .page__header {
+    font-size: 40px;
+  }
+
+  .section__header {
+    font-size: 25px;
+  }
+}

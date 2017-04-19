@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-import './Navbar.scss';
-import logo from './logo.png';
+import '../css/navbar.scss';
+import logo from '../assets/images/logo.png';
 
 const Navbar = () => (
   <div className="navbar">
@@ -12,28 +12,28 @@ const Navbar = () => (
       </Link>
     </div>
     <div className="links">
-      <Link to="/about" className="link">
+      <Link to="/about/" className="link">
         About Us
       </Link>
       <div className="dropdown">
         <button className="dropbtn">Rosters</button>
         <div className="dropdown__content">
-          <Link to="/mens-roster" className="link">
+          <Link to="/mens-roster/" className="link">
             <div className="dropdown__link">Men&#39;s Roster</div>
           </Link>
           <br />
-          <Link to="/womens-roster" className="link">
+          <Link to="/womens-roster/" className="link">
             <div className="dropdown__link">Women&#39;s Roster</div>
           </Link>
         </div>
       </div>
-      <Link to="/schedule" className="link">
+      <Link to="/schedule/" className="link">
         Schedule
       </Link>
       <Link to="/alumni/" className="link">
         Alumni
       </Link>
-      <Link to="/join" className="link">
+      <Link to="/join/" className="link">
         Join Us
       </Link>
     </div>
