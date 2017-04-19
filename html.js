@@ -15,7 +15,6 @@ const Html = ({ body }) => {
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         />
-
         {head.title.toComponent()}
         {head.meta.toComponent()}
 
@@ -26,6 +25,7 @@ const Html = ({ body }) => {
         ) : (
           null
         )}
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css' />
       </head>
       <body>
         <div id="react-mount" dangerouslySetInnerHTML={{ __html: body }} />
