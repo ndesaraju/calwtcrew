@@ -1,5 +1,6 @@
 @import './vendors/normalize.css';
 @import 'aboutme.scss';
+@import 'alumni.scss';
 @import 'navbar.scss';
 
 *,
@@ -38,15 +39,24 @@ body {
     font-size: 15px;
     line-height: 1.6;
     font-weight: 300;
+
+    a:link {
+      color: blue;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: black;
+    }
   }
 }
 
 @media screen and (max-width: 740px) {
   .page__header {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .section__header {
-    font-size: 25px;
+    font-size: 20px;
   }
 }

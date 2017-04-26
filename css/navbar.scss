@@ -6,8 +6,8 @@
 
     .logo__image {
       height: 60px;
-      margin-top: 10px;
-      margin-left: -15px;
+      margin-top: 5px;
+      margin-left: -20px;
     }
   }
 
@@ -22,6 +22,11 @@
     color: black;
     font-size: 16px;
     margin: 30px;
+
+    &:hover {
+      color: #093A86;
+      text-decoration: underline;
+    }
   }
 
   .dropbtn {

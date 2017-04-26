@@ -13,28 +13,28 @@ const Navbar = () => (
     </div>
     <div className="links">
       <Link to="/about/" className="link">
-        About Us
+        ABOUT US
       </Link>
       <div className="dropdown">
-        <button className="dropbtn">Rosters</button>
+        <button className="dropbtn">ROSTERS</button>
         <div className="dropdown__content">
           <Link to="/mens-roster/" className="link">
-            <div className="dropdown__link">Men&#39;s Roster</div>
+            <div className="dropdown__link">MEN&#39;S ROSTER</div>
           </Link>
           <br />
           <Link to="/womens-roster/" className="link">
-            <div className="dropdown__link">Women&#39;s Roster</div>
+            <div className="dropdown__link">WOMEN&#39;S ROSTER</div>
           </Link>
         </div>
       </div>
       <Link to="/schedule/" className="link">
-        Schedule
+        SCHEDULE
       </Link>
       <Link to="/alumni/" className="link">
-        Alumni
+        ALUMNI
       </Link>
       <Link to="/join/" className="link">
-        Join Us
+        JOIN US
       </Link>
     </div>
   </div>

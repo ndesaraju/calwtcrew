@@ -7,7 +7,7 @@ import team from '../assets/images/team.jpg';
 const AboutComponent = () => (
   <div>
     <div className="page__header">
-      ABOUT US
+      ABOUT
     </div>
     <div className="section__header">
       COACHES
