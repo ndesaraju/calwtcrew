@@ -1,0 +1,45 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+
+  @media screen and (max-width: 983px) {
+    width: 600px;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 400px;
+  }
+
+  .header {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .image {
+    width: 720px;
+    margin: 0 auto;
+    padding: 3px;
+
+    @media screen and (max-width: 983px) {
+      width: 600px;
+    }
+
+    @media screen and (max-width: 760px) {
+      width: 80%;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .roster {
+    display: inline-block;
+    @media screen and (max-width: 983px) {
+      display: block;
+    }
+  }
+}
