@@ -1,0 +1,50 @@
+#schedule__pic {
+  padding: 2% 12%;
+  width: 100%;
+  text-align: center;
+}
+
+.section__header {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  &:hover {
+    color: #093A86;
+  }
+}
+
+.current__container, .fa15__container, .sp15__container {
+  &.current--close, &.fa15--close, &.sp15--close  {
+    .event__header, .result__content {
+      display: none;
+    }
+  }
+
+  &.current--open, &.fa15--open, &.sp15--open {
+    .event__header {
+      margin-bottom: 15px;
+      font-size: 17px;
+      text-align: center;
+    }
+
+    .result__content {
+      margin-bottom: 15px;
+      font-size: 14px;
+      text-align: center;
+      font-weight: 400;
+    }
+
+    @media screen and (max-width: 800px) {
+      .event__header {
+        font-size: 14px;
+      }
+
+      .result__content {
+        font-size: 13px;
+      }
+    }
+  }
+}
