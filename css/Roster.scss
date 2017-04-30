@@ -34,7 +34,7 @@
       }
 
       &:nth-child(3) {
-        width: 120px;
+        width: 130px;
       }
 
       &:nth-child(4) {
@@ -42,7 +42,7 @@
       }
 
       &:nth-child(5) {
-        width: 300px;
+        width: 310px;
       }
 
       .roster__item {
@@ -63,6 +63,52 @@
           display: none;
         }
       }
+    }
+  }
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+
+  @media screen and (max-width: 983px) {
+    width: 600px;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 400px;
+  }
+
+  .header {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .image {
+    width: 720px;
+    margin: 0 auto;
+    padding: 3px;
+
+    @media screen and (max-width: 983px) {
+      width: 600px;
+    }
+
+    @media screen and (max-width: 760px) {
+      width: 80%;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .roster {
+    display: inline-block;
+    @media screen and (max-width: 983px) {
+      display: block;
     }
   }
 }
