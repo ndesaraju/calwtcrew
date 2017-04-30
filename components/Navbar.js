@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
+import FontAwesome from 'react-fontawesome';
 import Headroom from 'react-headroom';
 import classNames from 'classnames';
 import logo from '../assets/images/logo.png';
@@ -55,6 +56,20 @@ export default class Navbar extends Component {
               <div className="hamburger__bar bar" />
             </div>
             <div className="links">
+              <div className="navbar__media">
+                <a href="https://www.facebook.com/californialightweightcrew/?ref=br_rs" target="_blank" rel="noopener noreferrer">
+                  <FontAwesome
+                    className="fb__icon"
+                    name="facebook"
+                  />
+                </a>
+                <a href="http://instagram.com/cal_lights" target="_blank" rel="noopener noreferrer">
+                  <FontAwesome
+                    className="ig__icon"
+                    name="instagram"
+                  />
+                </a>
+              </div>
               <Link to="/about/" className="link">
                 ABOUT US
               </Link>
