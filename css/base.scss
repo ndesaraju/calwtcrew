@@ -37,6 +37,7 @@ body {
 
 .section__content {
   margin: 3%;
+
   p {
     text-align: justify;
     margin: 1% 13%;
@@ -52,6 +53,16 @@ body {
     a:hover {
       color: black;
     }
+  }
+}
+
+.centered__content {
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .page__header {
+    margin-top: 50px;
   }
 }
 
