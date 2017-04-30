@@ -1,0 +1,44 @@
+#home {
+  padding: 2% 12%;
+  width: 100%;
+}
+
+ul {
+  li {
+    text-align: justify;
+    margin: 1% 13%;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+}
+
+.recruit__video {
+  text-align: center;
+  margin-bottom: 24px;
+
+  iframe {
+    width: 800px;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  
+  .recruit__video {
+    iframe {
+      width: 600px;
+      height: 338px;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  .recruit__video {
+    iframe {
+      width: 300px;
+      height: 169px;
+    }
+  }
+}

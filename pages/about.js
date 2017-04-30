@@ -17,6 +17,9 @@ const AboutComponent = () => (
       OFFICERS
     </div>
     <Officers />
+    <div className="section__header">
+      THE CLUB
+    </div>
     <div className="section__content">
       <p>
         California Lightweight Crew has been a sport club at UC Berkeley since the
@@ -24,16 +27,16 @@ const AboutComponent = () => (
         United States dedicated to men‘s and women‘s lightweight rowing.
         The Cal Lightweights row out of Jack London Aquatic Center (JLAC) on the
         Oakland Estuary, which is a short 15 minute drive from campus. All four of
-        the team‘s squads--Men‘s Varsity, Women‘s Varsity, Men‘s Novice, and
-        Women‘s Novice--share a bay in the JLAC boathouse, creating a highly
+        the team‘s squads&mdash;Men‘s Varsity, Women‘s Varsity, Men‘s Novice, and
+        Women‘s Novice&mdash;share a bay in the JLAC boathouse, creating a highly
         team-oriented atmosphere and fostering a unique social experience for
         ambitious Cal student-athletes.
       </p>
       <p>
         The Cal Lightweights row out of Jack London Aquatic Center (JLAC) on the
         Oakland Estuary, which is a short 15 minute drive from campus. All four of
-        the team‘s squads--Men‘s Varsity, Women‘s Varsity, Men‘s Novice, and
-        Women‘s Novice--share a bay in the JLAC boathouse, creating a highly
+        the team‘s squads&mdash;Men‘s Varsity, Women‘s Varsity, Men‘s Novice, and
+        Women‘s Novice&mdash;share a bay in the JLAC boathouse, creating a highly
         team-oriented atmosphere and fostering a unique social experience for
         ambitious Cal student-athletes.
       </p>
@@ -51,14 +54,14 @@ const AboutComponent = () => (
         Association (WIRA) Championships.
         Novice rowers graduate to the varsity level after their first spring
         season of competition. Varsity rowers are eligible to compete for seats in
-        the top boats that the club sends to major championships--most notably,
+        the top boats that the club sends to major championships&mdash;most notably,
         the San Diego Crew Classic, WIRAs, and ACRAs (our national championship
         race in Georgia).
       </p>
       <p>
         Novice rowers graduate to the varsity level after their first spring
         season of competition. Varsity rowers are eligible to compete for seats in
-        the top boats that the club sends to major championships--most notably,
+        the top boats that the club sends to major championships&mdash;most notably,
         the San Diego Crew Classic, WIRAs, and ACRAs (our national championship
         race in Georgia).
       </p>
@@ -75,7 +78,7 @@ const AboutComponent = () => (
         opportunities, and is being managed efficiently.
         For more information about California Lightweight Crew, please contact our
         recruiting officers, Hannah Rudoff and Lydia Chen. Their contact
-        information can be found on the home page.
+        information can be found above.
       </p>
       <p>
         For more information about California Lightweight Crew, please contact our
