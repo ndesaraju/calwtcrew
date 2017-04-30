@@ -1,4 +1,4 @@
-# Biofuels Technology Club
+# Cal Lightweight Crew
 ---
 Built by [Innovative Design](http://innovativedesign.club)
 
