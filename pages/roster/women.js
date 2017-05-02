@@ -2,7 +2,7 @@ import React from 'react';
 import Roster from '../../components/Roster';
 import photo from '../../assets/images/womensroster.jpg';
 
-import '../../css/Roster.scss';
+import '../../css/roster.scss';
 
 const RosterPage = () => {
   const varsityPlayers = [

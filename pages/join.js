@@ -1,14 +1,18 @@
 import React from 'react';
+import join1 from '../assets/images/join1.jpg';
+import join2 from '../assets/images/join2.jpg';
 
 const JoinComponent = () => (
   <div>
     <div className="page__header">
       JOINING CAL LIGHTWEIGHT CREW
     </div>
+    <div className="centered__content">
+      <img src={join1} alt="join1" />
+    </div>
     <div className="section__header">
       INCOMING FRESHMEN
     </div>
-    <br />
     <div className="section__content">
       <p>
         If you are a current high school senior with <u><b>prior rowing experience</b></u> and have
@@ -31,7 +35,6 @@ const JoinComponent = () => (
         and race results. Priority will be given to athletes whose first choice school is Cal.
       </p>
     </div>
-    <br />
     <div className="section__header">
       GENERAL APPLICANTS
     </div>
@@ -44,7 +47,11 @@ const JoinComponent = () => (
       </p>
     </div>
     <br />
+    <div className="centered__content">
+      <img src={join2} alt="join2" />
+    </div>
     <div className="section__header">
+      <br />
       FREQUENTLY ASKED QUESTIONS
     </div>
     <div className="section__content">

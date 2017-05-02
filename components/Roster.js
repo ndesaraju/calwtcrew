@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../css/Roster.scss';
+import '../css/roster.scss';
 
 const Roster = ({ rosterName, names, sides, years, hometowns, majors }) => (
   <div className="roster-container">

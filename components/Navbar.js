@@ -56,7 +56,7 @@ export default class Navbar extends Component {
               <div className="hamburger__bar bar" />
               <div className="hamburger__bar bar" />
             </div>
-            <div className="links">
+            <div className="links" onClick={this._handleNavOpen}>
               <div className="navbar__media">
                 <a href="https://www.facebook.com/californialightweightcrew/?ref=br_rs" target="_blank" rel="noopener noreferrer">
                   <FontAwesome
