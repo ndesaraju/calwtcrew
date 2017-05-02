@@ -60,8 +60,7 @@
       transition: .2s linear;
     }
 
-    .link:hover:before, .link:focus:before,
-    .dropdown__link:hover:before, .dropdown__link:focus:before {
+    .link:hover:before, .dropdown__link:hover:before {
       visibility: visible;
       transform: scaleX(1);
     }
