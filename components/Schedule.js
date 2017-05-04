@@ -37,7 +37,7 @@ export default class Schedule extends Component {
     /* eslint-disable react/jsx-no-bind */
     return (
       <div>
-        <div className="section__header" onClick={this._handleSectionOpen.bind(this, 'current')}>
+        <div className="schedule__header" onClick={this._handleSectionOpen.bind(this, 'current')}>
           Spring 2016 Schedule & Results
         </div>
         <div
@@ -95,7 +95,7 @@ export default class Schedule extends Component {
             May 25-28 * ACRA National Championships * Gainesville, GA
           </div>
         </div>
-        <div className="section__header" onClick={this._handleSectionOpen.bind(this, 'fa15')}>
+        <div className="schedule__header" onClick={this._handleSectionOpen.bind(this, 'fa15')}>
           Fall 2015 Schedule & Results
         </div>
         <div
@@ -123,7 +123,7 @@ export default class Schedule extends Component {
             November 7, 2015 * Head of the Lagoon * Foster City, CA
           </div>
         </div>
-        <div className="section__header" onClick={this._handleSectionOpen.bind(this, 'sp15')}>
+        <div className="schedule__header" onClick={this._handleSectionOpen.bind(this, 'sp15')}>
           Spring 2015 Schedule & Results
         </div>
         <div
