@@ -24,7 +24,7 @@ ul {
 }
 
 @media screen and (max-width: 900px) {
-  
+
   .recruit__video {
     iframe {
       width: 600px;
@@ -41,4 +41,9 @@ ul {
       height: 169px;
     }
   }
+}
+
+#ocf {
+  margin: 1% 13%;
+  height: 50px;
 }

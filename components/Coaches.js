@@ -8,13 +8,13 @@ const Coaches = () => {
     {
       name: 'Marjorie Setchko',
       position: 'Women\'s Head Coach',
-      email: '',
+      email: 'marjoriesetchko@gmail.com',
       image: marjorie,
     },
     {
-      name: 'Douglas Perez',
+      name: 'Nicholas Angelides',
       position: 'Men\'s Head Coach',
-      email: '',
+      email: 'angelides@berkeley.edu',
       image: douglas,
     },
   ];

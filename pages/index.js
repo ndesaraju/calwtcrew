@@ -1,5 +1,6 @@
 import React from 'react';
 import home from '../assets/images/home-image.jpg';
+import ocf from '../assets/images/ocf-hosted-penguin.svg';
 
 const IndexComponent = () => (
   <div>
@@ -14,7 +15,7 @@ const IndexComponent = () => (
         Cal Lightweight Crew is the only team on the West Coast dedicated to men‘s
         and women‘s lightweight rowing. For more information, please contact our
         recruiting chairs, <a href="mailto:lydiachen@berkeley.edu" target="_top">Lydia Chen</a>,
-        or <a href="mailto:hannah.rudoff@berkeley.edu" target="_top">Hannah Rudoff</a>.
+        or <a href="mailto:greg.labella@berkeley.edu" target="_top">Gregory LaBella</a>.
         No experience is necessary&mdash;all are welcome.
       </p>
       <p>
@@ -29,7 +30,7 @@ const IndexComponent = () => (
       </p>
     </div>
     <div className="section__header">
-      LATEST NEWS - FALL 2016
+      LATEST NEWS - FALL 2017
     </div>
     <div className="section__content">
       <ul>
@@ -67,6 +68,9 @@ const IndexComponent = () => (
         src="https://player.vimeo.com/video/130400464" frameBorder="0" webkitallowfullscreen mozallowfullscreen allowFullScreen
       />
     </div>
+    <a href="https://www.ocf.berkeley.edu" rel="noopener noreferrer" target="_blank">
+      <img id="ocf" alt="Hosted by the OCF" src={ocf} />
+    </a>
   </div>
 );
 
