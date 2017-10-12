@@ -35,31 +35,11 @@ const IndexComponent = () => (
     <div className="section__content">
       <ul>
         <li>
-          Don‘t miss Cal Lights‘ last race of the season at Head of the Lagoon, this
-          November 12th in Foster City.
+          [September 13, 2017] - Interested in rowing?
+          E-mail <a href="mailto:cegekko@berkeley.edu" target="_top"> Colby Gekko</a>!
         </li>
         <li>
-          Cal Lightweight Crew had a great showing at Head of the American, highlighted
-          by wins in the women‘s quad and a 2nd place finish in the men‘s light 8!
-        </li>
-        <li>
-          Don‘t miss Cal Lights‘ last race of the season at Head of the Lagoon, this
-          November 12th in Foster City.
-        </li>
-        <li>
-          Catch the first racing action of the season on October 2, 2016&mdash;the Golden
-          Bears‘ varsity men and women will be opening the season at the Wine Country
-          Fall Classic in Petaluma, CA. GO BEARS!
-        </li>
-        <li>
-          Congratulations to our women‘s pair, Tori Cabot and Philine Endres, for
-          their silver medal at ACRA National Championships! GO BEARS and have a
-          great summer!
-        </li>
-        <li>
-          The Lightweight Bears had a strong finish at their regional championships
-          (WIRAs) in Sacramento, taking home gold in the women‘s light four, silver
-          in the women‘s pair, and bronze in the men‘s light four.
+          Our first race will be at the Wine Country Classic in Pataluma, CA on October 1, 2017.
         </li>
       </ul>
     </div>

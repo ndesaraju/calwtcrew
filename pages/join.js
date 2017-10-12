@@ -90,15 +90,6 @@ const JoinComponent = () => (
         rowing are well worth the time commitment!
         <br /><br />
         <b>
-          Q: Will trying to balance school and rowing hurt my grades?
-        </b>
-        <br />
-        A: No! Our average team GPA is a 3.78- that&#39;s well above average for Cal students.
-        Rowers often report that rowing actually helps them manage their time better, since they
-        have a highly regimented schedule and their teammates are relying on them to be at practice
-        and not catching up on work or cramming last-minute for a test.
-        <br /><br />
-        <b>
           Q: Isn&#39;t rowing one of the most expensive sports? What if I can&#39;t afford it?
         </b>
         <br />

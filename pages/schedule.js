@@ -1,5 +1,4 @@
 import React from 'react';
-import Schedule from '../components/Schedule';
 import schedule from '../assets/images/schedule.jpg';
 
 const ScheduleComponent = () => (
@@ -7,7 +6,9 @@ const ScheduleComponent = () => (
     <div className="page__header">
       2015-2016 Race Schedule and Results
     </div>
-    <Schedule />
+    <div>
+    FALL 2017 SCHEDULE COMING SOON! CENTER THIS!
+    </div>
     <img id="schedule__pic" alt="" src={schedule} />
   </div>
 );

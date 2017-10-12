@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../css/roster.scss';
 
-const Roster = ({ rosterName, names, sides, years, hometowns, majors }) => (
+const Roster = ({ rosterName, names, years, hometowns, majors }) => (
   <div className="roster-container">
     <header>
       <h1>{rosterName}</h1>
@@ -13,14 +13,6 @@ const Roster = ({ rosterName, names, sides, years, hometowns, majors }) => (
         {names.map((name) => (
           <div className="roster__item">
             {name}
-          </div>
-        ))}
-      </div>
-      <div className="roster__column">
-        <h3>Side</h3>
-        {sides.map((side) => (
-          <div className="roster__item">
-            {side}
           </div>
         ))}
       </div>
@@ -55,7 +47,6 @@ const Roster = ({ rosterName, names, sides, years, hometowns, majors }) => (
 Roster.propTypes = {
   rosterName: React.PropTypes.string.isRequired,
   names: React.PropTypes.arrayOf(React.PropTypes.string).isRequired,
-  sides: React.PropTypes.arrayOf(React.PropTypes.string).isRequired,
   years: React.PropTypes.arrayOf(React.PropTypes.string).isRequired,
   hometowns: React.PropTypes.arrayOf(React.PropTypes.string).isRequired,
   majors: React.PropTypes.arrayOf(React.PropTypes.string).isRequired,

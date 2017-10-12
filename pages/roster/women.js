@@ -7,168 +7,80 @@ import '../../css/roster.scss';
 const RosterPage = () => {
   const varsityPlayers = [
     {
-      name: 'Cassie Redding',
-      side: 'Starboard',
-      year: 'Junior',
+      name: 'Alexa Didio',
+      year: 'Senior',
+      hometown: 'Pacific Palisades, CA',
+      major: 'Applied Mathematics',
+    },
+    {
+      name: 'Brittney Nguyen',
+      year: 'Senior',
       hometown: 'Pasadena, CA',
+      major: 'Cognitive Science',
+    },
+    {
+      name: 'Cameron Onodera',
+      year: 'Freshman',
+      hometown: 'Sacramento, CA',
       major: 'Undeclared',
     },
     {
-      name: 'Colby Gekko',
-      side: 'Port',
+      name: 'Cassie Redding',
       year: 'Senior',
-      hometown: 'San Clemente, CA',
-      major: 'Chemistry & Molecular & Cell Bio.',
+      hometown: 'Pasadena, CA',
+      major: 'Economics',
     },
     {
-      name: 'Hannah Rudoff',
-      side: 'Port',
-      year: 'Senior',
-      hometown: 'Portland, OR',
-      major: 'Political Science & Economics',
+      name: 'Cassie Robinson',
+      year: 'Freshman',
+      hometown: 'Houston, TX',
+      major: 'Marine Biology',
     },
     {
       name: 'Lydia Chen',
-      side: 'No Preference',
-      year: 'Junior',
+      year: 'Senior',
       hometown: 'Burke, VA',
       major: 'Dietetics',
     },
     {
-      name: 'Monisha Lensink-Vasan',
-      side: 'No Preference',
+      name: 'Margherita Tonini',
       year: 'Junior',
-      hometown: 'Denver, CO',
-      major: 'Molecular & Cell Biology',
+      hometown: 'Miami, FL',
+      major: 'Chemical Engineering and French',
+    },
+    {
+      name: 'Niharika Desaraju',
+      year: 'Freshman',
+      hometown: 'Cupertino, CA',
+      major: 'Bioengineering',
     },
     {
       name: 'Philine Endres',
-      side: 'Starboard',
-      year: 'Junior',
+      year: 'Senior',
       hometown: 'Riverside, CA',
       major: 'Interdisciplinary Studies',
     },
     {
-      name: 'Reni Forer',
-      side: 'Starboard',
-      year: 'Junior',
-      hometown: 'Westport, CT',
-      major: 'Cognitive Science',
+      name: 'Vicky Fong',
+      year: 'Freshman',
+      hometown: 'Hong Kong',
+      major: 'Marine Science',
     },
     {
       name: 'Samantha Lai',
-      side: 'Port',
-      year: 'Junior',
-      hometown: 'Piedmont, CA',
-      major: 'Molecular & Cell Biology',
-    },
-    {
-      name: 'Tori Cabot',
-      side: 'Port',
       year: 'Senior',
-      hometown: 'Holliston, MA',
-      major: 'Media Studies',
+      hometown: 'Piedmont, CA',
+      major: 'Molecular & Cell Biology and Comp. Sci.',
     },
   ];
 
   const novicePlayers = [
-    {
-      name: 'Amanda Chung',
-      side: 'Port',
-      year: 'Freshman',
-      hometown: 'Santa Barbara, CA',
-      major: 'Political Science',
-    },
-    {
-      name: 'Annie Speckhahn',
-      side: 'No Preference',
-      year: 'Freshman',
-      hometown: 'Reno, NV',
-      major: 'Undeclared',
-    },
-    {
-      name: 'Aparna Dhinakaran',
-      side: 'Port',
-      year: 'Senior',
-      hometown: 'Fremont, CA',
-      major: 'Electrical Engineering & Comp. Sci.',
-    },
-    {
-      name: 'Brittany Nguyen',
-      side: 'Coxswain',
-      year: 'Freshman',
-      hometown: 'San Jose, CA',
-      major: 'Undeclared',
-    },
-    {
-      name: 'Janice Luong',
-      side: 'Port',
-      year: 'Freshman',
-      hometown: 'Rowland Heights, CA',
-      major: 'Integrative Biology',
-    },
-    {
-      name: 'Jeannie O&#39;Driscoll',
-      side: 'No Preference',
-      year: 'Junior',
-      hometown: 'Cord, Ireland',
-      major: 'Engineering (Exchange)',
-    },
-    {
-      name: 'Kim Sakai',
-      side: 'Coxswain',
-      year: 'Junior',
-      hometown: 'Morgan Hill, CA',
-      major: 'Undeclared',
-    },
-    {
-      name: 'Kylie Sammons',
-      side: 'Starboard',
-      year: 'Junior',
-      hometown: 'Corona, CA',
-      major: 'Anthropology',
-    },
-    {
-      name: 'Liz Go',
-      side: 'Port',
-      year: 'Freshman',
-      hometown: 'La Quinta, CA',
-      major: 'Molecular & Cell Biology',
-    },
-    {
-      name: 'Maddie Huber',
-      side: 'Port',
-      year: 'Freshman',
-      hometown: '',
-      major: 'Nutrition',
-    },
-    {
-      name: 'Madie Dunlap',
-      side: 'Starboard',
-      year: 'Freshman',
-      hometown: 'Chico, CA',
-      major: 'Mathematics',
-    },
-    {
-      name: 'Minna Brown',
-      side: 'No Preference',
-      year: 'Freshman',
-      hometown: 'Oakland, CA',
-      major: 'Undeclared',
-    },
-    {
-      name: 'Zoe Ziegler',
-      side: 'Coxswain',
-      year: 'Freshman',
-      hometown: 'Arcata, CA',
-      major: 'Undeclared',
-    },
   ];
 
   return (
     <div className="container">
       <div className="page__header">
-        2015-2016 Varsity & Novice Men
+        2017-2018 Varsity & Novice Women
       </div>
       <div className="image">
         <img alt="" src={photo} />
