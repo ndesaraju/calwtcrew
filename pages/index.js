@@ -21,8 +21,8 @@ const IndexComponent = () => (
       <p>
         If you‘re a high school senior with prior rowing experience and have already
         applied to the College of Letters and Science, please fill out this form to be
-        considered for a Special Talent Recommendation from our Head Coach:
-        http://goo.gl/forms/qcQLb7zL04.
+        considered for a Special Talent Recommendation from our Head Coach: <a href="http://goo.gl/forms/qcQLb7zL04">
+         http://goo.gl/forms/qcQLb7zL04</a>.
       </p>
       <p>
         *All other applicants, (i.e. those in other colleges, non-seniors) interested
@@ -35,11 +35,23 @@ const IndexComponent = () => (
     <div className="section__content">
       <ul>
         <li>
-          [September 13, 2017] - Interested in rowing?
-          E-mail <a href="mailto:cegekko@berkeley.edu" target="_top"> Colby Gekko</a>!
+          [October 16, 2017] - The next race will be held at the <a href="https://www.regattacentral.com/regatta/entries/?job_id=5375&org_id=1385">
+          Head of the American</a> in Sacramento, CA on October 28, 2017. Go Bears!
         </li>
         <li>
-          Our first race will be at the Wine Country Classic in Pataluma, CA on October 1, 2017.
+          [October 1, 2017] Congratulations to the varsity men and women crews on
+          a fantastic showing at the Wine Country Classic in Petaluma, CA! Results:
+          <ul>
+            <li>Womens Collegiate 8+ [1st Place]</li>
+            <li>Mens Collegiate 8+ [2nd Place]</li>
+            <li>Mens Collegiate Lightweight 4+ [2nd Place]</li>
+            <li>Womens Collegiate Lightweight 4+ A [2nd Place]</li>
+            <li>Womens Collegiate 8+ B [5th Place]</li>
+          </ul>
+        </li>
+        <li>
+          [September 13, 2017] - Interested in rowing?
+          E-mail <a href="mailto:cegekko@berkeley.edu" target="_top"> Colby Gekko</a>!
         </li>
       </ul>
     </div>

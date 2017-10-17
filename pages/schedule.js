@@ -7,7 +7,7 @@ const ScheduleComponent = () => (
       2015-2016 Race Schedule and Results
     </div>
     <div>
-    FALL 2017 SCHEDULE COMING SOON! CENTER THIS!
+    FALL 2017 SCHEDULE COMING SOON!
     </div>
     <img id="schedule__pic" alt="" src={schedule} />
   </div>
