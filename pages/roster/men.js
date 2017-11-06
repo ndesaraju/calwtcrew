@@ -58,11 +58,53 @@ const RosterPage = () => {
       name: 'Yubang Chen',
       year: 'Freshman',
       hometown: 'Cincinnati, OH',
-      major: 'Computer Science & Spanish',
+      major: 'Computer Science and Spanish',
     },
   ];
 
   const novicePlayers = [
+    {
+      name: 'Chris Lamb',
+      year: 'Sophomore',
+      hometown: 'Sunland, CA',
+      major: 'Nuclear Engineering',
+    },
+    {
+      name: 'Chris Park',
+      year: 'Freshman',
+      hometown: 'Scottsdale, AZ',
+      major: 'Bio-Engineering',
+    },
+    {
+      name: 'Ethan Willbrand',
+      year: 'Freshman',
+      hometown: 'Cincinnati, OH',
+      major: 'Cognitive Science',
+    },
+    {
+      name: 'Jacob Fajnor',
+      year: 'Freshman',
+      hometown: 'Aromas, CA',
+      major: 'Economics and Statitcs',
+    },
+    {
+      name: 'Jameson Hohbein',
+      year: 'Junior',
+      hometown: 'Brea, CA',
+      major: 'Political Science',
+    },
+    {
+      name: 'Kevin Miao',
+      year: 'Freshman',
+      hometown: 'Eindhoven, The Netherlands',
+      major: 'Molecular & Cell Biology',
+    },
+    {
+      name: 'Sandeep Sainath',
+      year: 'Freshman',
+      hometown: 'Chennai, India',
+      major: 'Operations Reserach & Management Science',
+    },
   ];
 
   return (

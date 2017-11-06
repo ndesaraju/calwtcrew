@@ -70,11 +70,107 @@ const RosterPage = () => {
       name: 'Samantha Lai',
       year: 'Senior',
       hometown: 'Piedmont, CA',
-      major: 'Molecular & Cell Biology and Comp. Sci.',
+      major: 'Molecular & Cellular Bio. and Comp. Sci.',
     },
   ];
 
   const novicePlayers = [
+    {
+      name: 'Ashley Nguyen',
+      year: 'Sophomore',
+      hometown: 'Fountain Valley, CA',
+      major: 'Mathematics and Computer Science',
+    },
+    {
+      name: 'Audrey Chang',
+      year: 'Sophomore',
+      hometown: 'Orinda, CA',
+      major: 'Economics and Statistics',
+    },
+    {
+      name: 'Caroline Romo',
+      year: 'Freshman',
+      hometown: 'Kailua, HI',
+      major: 'Undeclared',
+    },
+    {
+      name: 'Caroline Sobek',
+      year: 'Sophomore',
+      hometown: 'Portola Valley, CA',
+      major: 'Chemical Biology and Statistics',
+    },
+    {
+      name: 'Christy Kang',
+      year: 'Sophomore',
+      hometown: 'Arcadia, CA',
+      major: 'Economics and Economics',
+    },
+    {
+      name: 'Ekateria Fedorova',
+      year: 'Freshman',
+      hometown: 'Los Angeles, CA',
+      major: 'Economics and Statistics',
+    },
+    {
+      name: 'Hermine Simonsen',
+      year: 'Graduate Student',
+      hometown: 'Oslo, Norway',
+      major: 'Civil Engineering',
+    },
+    {
+      name: 'Lauren Meier',
+      year: 'Freshman',
+      hometown: 'Sunnyvale, CA',
+      major: 'Electrical Engineering & Comp. Sci.',
+    },
+    {
+      name: 'Lily Zheng',
+      year: 'Sophomore',
+      hometown: 'San Diego, CA',
+      major: 'Mechanical Engineering',
+    },
+    {
+      name: 'Linshanshan Wang',
+      year: 'Sophomore',
+      hometown: 'Jinan, China',
+      major: 'Molecular & Cellular Biology',
+    },
+    {
+      name: 'Alexa Didio',
+      year: 'Senior',
+      hometown: 'Pacific Palisades, CA',
+      major: 'Applied Mathematics',
+    },
+    {
+      name: 'Serena Kim',
+      year: 'Sophomore',
+      hometown: 'Fresno, CA',
+      major: 'Molecular & Cell. Bio. and Psychology',
+    },
+    {
+      name: 'Shreya Kareti',
+      year: 'Sophomore',
+      hometown: 'Yuba City, CA',
+      major: 'Art History',
+    },
+    {
+      name: 'Siena Ramirez',
+      year: 'Sophomore',
+      hometown: 'Riverside, CA',
+      major: 'Public Health and Political Science',
+    },
+    {
+      name: 'Sylvia Illouz',
+      year: 'Freshman',
+      hometown: 'Palo Alto, CA',
+      major: 'Bio-Engineering',
+    },
+    {
+      name: 'Younma Rabie',
+      year: 'Sophomore',
+      hometown: 'Cairo, Egypt',
+      major: 'Computer Science and Economics',
+    },
   ];
 
   return (

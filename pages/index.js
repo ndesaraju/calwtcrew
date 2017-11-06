@@ -1,5 +1,5 @@
 import React from 'react';
-import home from '../assets/images/home-image.jpg';
+import home from '../assets/images/home_test.jpg';
 import ocf from '../assets/images/ocf-hosted-penguin.svg';
 
 const IndexComponent = () => (
