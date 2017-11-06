@@ -113,7 +113,7 @@ const RosterPage = () => {
     },
     {
       name: 'Hermine Simonsen',
-      year: 'Graduate Student',
+      year: 'Grad. Student',
       hometown: 'Oslo, Norway',
       major: 'Civil Engineering',
     },
