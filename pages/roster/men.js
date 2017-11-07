@@ -10,7 +10,7 @@ const RosterPage = () => {
       name: 'Alex Nakagawa',
       year: 'Sophomore',
       hometown: 'South Pasadena, CA',
-      major: 'Computer Science and Cognitive Science',
+      major: 'Computer Science & Cognitive Science',
     },
     {
       name: 'Andrew Chen',
@@ -46,7 +46,7 @@ const RosterPage = () => {
       name: 'Haichao Yu',
       year: 'Sophomore',
       hometown: 'Danville, CA',
-      major: 'Economics and Applied Mathematics',
+      major: 'Economics & Applied Mathematics',
     },
     {
       name: 'Scott Shao',
@@ -58,7 +58,7 @@ const RosterPage = () => {
       name: 'Yubang Chen',
       year: 'Freshman',
       hometown: 'Cincinnati, OH',
-      major: 'Computer Science and Spanish',
+      major: 'Computer Science & Spanish',
     },
   ];
 
@@ -85,7 +85,7 @@ const RosterPage = () => {
       name: 'Jacob Fajnor',
       year: 'Freshman',
       hometown: 'Aromas, CA',
-      major: 'Economics and Statitcs',
+      major: 'Economics & Statitcs',
     },
     {
       name: 'Jameson Hohbein',

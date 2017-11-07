@@ -46,7 +46,7 @@ const RosterPage = () => {
       name: 'Margherita Tonini',
       year: 'Junior',
       hometown: 'Miami, FL',
-      major: 'Chemical Engineering and French',
+      major: 'Chemical Engineering & French',
     },
     {
       name: 'Niharika Desaraju',
@@ -70,22 +70,23 @@ const RosterPage = () => {
       name: 'Samantha Lai',
       year: 'Senior',
       hometown: 'Piedmont, CA',
-      major: 'Molecular & Cellular Bio. and Comp. Sci.',
+      major: 'Molecular & Cellular Bio. & Comp. Sci.',
     },
   ];
+
 
   const novicePlayers = [
     {
       name: 'Ashley Nguyen',
       year: 'Sophomore',
       hometown: 'Fountain Valley, CA',
-      major: 'Mathematics and Computer Science',
+      major: 'Mathematics & Computer Science',
     },
     {
       name: 'Audrey Chang',
       year: 'Sophomore',
       hometown: 'Orinda, CA',
-      major: 'Economics and Statistics',
+      major: 'Economics & Statistics',
     },
     {
       name: 'Caroline Romo',
@@ -97,25 +98,31 @@ const RosterPage = () => {
       name: 'Caroline Sobek',
       year: 'Sophomore',
       hometown: 'Portola Valley, CA',
-      major: 'Chemical Biology and Statistics',
+      major: 'Chemical Biology & Statistics',
     },
     {
       name: 'Christy Kang',
       year: 'Sophomore',
       hometown: 'Arcadia, CA',
-      major: 'Economics and Economics',
+      major: 'Economics & Economics',
     },
     {
       name: 'Ekateria Fedorova',
       year: 'Freshman',
       hometown: 'Los Angeles, CA',
-      major: 'Economics and Statistics',
+      major: 'Economics & Statistics',
     },
     {
       name: 'Hermine Simonsen',
       year: 'Grad. Student',
       hometown: 'Oslo, Norway',
       major: 'Civil Engineering',
+    },
+    {
+      name: 'Jana Quan',
+      year: 'Freshman',
+      hometown: 'San Francisco',
+      major: 'Materials Science & Engineering',
     },
     {
       name: 'Lauren Meier',
@@ -136,16 +143,10 @@ const RosterPage = () => {
       major: 'Molecular & Cellular Biology',
     },
     {
-      name: 'Alexa Didio',
-      year: 'Senior',
-      hometown: 'Pacific Palisades, CA',
-      major: 'Applied Mathematics',
-    },
-    {
       name: 'Serena Kim',
       year: 'Sophomore',
       hometown: 'Fresno, CA',
-      major: 'Molecular & Cell. Bio. and Psychology',
+      major: 'Molecular & Cell. Bio. & Psychology',
     },
     {
       name: 'Shreya Kareti',
@@ -157,7 +158,7 @@ const RosterPage = () => {
       name: 'Siena Ramirez',
       year: 'Sophomore',
       hometown: 'Riverside, CA',
-      major: 'Public Health and Political Science',
+      major: 'Public Health & Political Science',
     },
     {
       name: 'Sylvia Illouz',
@@ -169,7 +170,7 @@ const RosterPage = () => {
       name: 'Younma Rabie',
       year: 'Sophomore',
       hometown: 'Cairo, Egypt',
-      major: 'Computer Science and Economics',
+      major: 'Computer Science & Economics',
     },
   ];
 
