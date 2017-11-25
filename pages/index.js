@@ -35,6 +35,20 @@ const IndexComponent = () => (
     <div className="section__content">
       <ul>
         <li>
+          [November 11, 2017] - Fantastic racing and beautiful weather down in
+          Foster City for the <a href="https://www.regattacentral.com/regatta/?job_id=5341">Head of the Lagoon Regatta</a>.
+          Congratulations to the varsity crews for a great final fall season race. Results:
+          <ul>
+            <li>Mens Collegiate Lightweight 4+ [1st Place]</li>
+            <li>Mens Open 2x [2nd Place]</li>
+            <li>Womens Collegiate 8+ [5th Place]</li>
+          </ul>
+        </li>
+        <li>
+          [October 28, 2017] - The Head of the American marked the first official
+          race for our novice rowers! Thank you to the Sacramento Aquatic Center for hosting us.
+        </li>
+        <li>
           [October 16, 2017] - The next race will be held at the <a href="https://www.regattacentral.com/regatta/entries/?job_id=5375&org_id=1385">
           Head of the American</a> in Sacramento, CA on October 28, 2017. Go Bears!
         </li>
@@ -46,7 +60,7 @@ const IndexComponent = () => (
             <li>Mens Collegiate 8+ [2nd Place]</li>
             <li>Mens Collegiate Lightweight 4+ [2nd Place]</li>
             <li>Womens Collegiate Lightweight 4+ A [2nd Place]</li>
-            <li>Womens Collegiate 8+ B [5th Place]</li>
+            <li>Womens Collegiate 4+ B [5th Place]</li>
           </ul>
         </li>
         <li>
