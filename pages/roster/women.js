@@ -104,13 +104,19 @@ const RosterPage = () => {
       name: 'Christy Kang',
       year: 'Sophomore',
       hometown: 'Arcadia, CA',
-      major: 'Economics & Economics',
+      major: 'Economics & Statistics',
     },
     {
-      name: 'Ekateria Fedorova',
+      name: 'Ekaterina Fedorova',
       year: 'Freshman',
-      hometown: 'Los Angeles, CA',
+      hometown: 'Cerritos, CA',
       major: 'Economics & Statistics',
+    },
+    {
+      name: 'Haley Minish',
+      year: 'Junior',
+      hometown: 'Los Angeles, CA',
+      major: 'English',
     },
     {
       name: 'Hermine Simonsen',
@@ -121,7 +127,7 @@ const RosterPage = () => {
     {
       name: 'Jana Quan',
       year: 'Freshman',
-      hometown: 'San Francisco',
+      hometown: 'San Francisco, CA',
       major: 'Materials Science & Engineering',
     },
     {
@@ -152,7 +158,7 @@ const RosterPage = () => {
       name: 'Shreya Kareti',
       year: 'Sophomore',
       hometown: 'Yuba City, CA',
-      major: 'Art History',
+      major: 'History of Art',
     },
     {
       name: 'Siena Ramirez',
