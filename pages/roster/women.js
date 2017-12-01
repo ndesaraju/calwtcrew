@@ -149,6 +149,12 @@ const RosterPage = () => {
       major: 'Molecular & Cellular Biology',
     },
     {
+      name: 'Monica Naranjo',
+      year: 'Sophomore',
+      hometown: 'Santa Ana, CA',
+      major: 'Architecture & Energy Engineering',
+    },
+    {
       name: 'Serena Kim',
       year: 'Sophomore',
       hometown: 'Fresno, CA',
