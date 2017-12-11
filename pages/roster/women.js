@@ -107,6 +107,12 @@ const RosterPage = () => {
       major: 'Economics & Statistics',
     },
     {
+      name: 'Cindy Barrios',
+      year: 'Senior',
+      hometown: 'Los Angeles, CA',
+      major: 'Molecular Env. Biology, Microbiology',
+    },
+    {
       name: 'Ekaterina Fedorova',
       year: 'Freshman',
       hometown: 'Cerritos, CA',

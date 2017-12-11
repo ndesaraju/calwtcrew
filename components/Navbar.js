@@ -79,7 +79,7 @@ export default class Navbar extends Component {
                 <Link to={prefixLink('/roster/men/')} className="link__navbar--open">
                   MEN&#39;S
                 </Link>
-                <Link to={prefixLink('/roster/women')} className="link__navbar--open">
+                <Link to={prefixLink('/roster/women/')} className="link__navbar--open">
                   WOMEN&#39;S
                 </Link>
               </div>
