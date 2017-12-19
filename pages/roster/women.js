@@ -185,7 +185,7 @@ const RosterPage = () => {
       major: 'Bio-Engineering',
     },
     {
-      name: 'Younma Rabie',
+      name: 'Youmna Rabie',
       year: 'Sophomore',
       hometown: 'Cairo, Egypt',
       major: 'Computer Science & Economics',
