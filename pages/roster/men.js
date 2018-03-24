@@ -10,19 +10,13 @@ const RosterPage = () => {
       name: 'Alex Nakagawa',
       year: 'Sophomore',
       hometown: 'South Pasadena, CA',
-      major: 'Computer Science & Cognitive Science',
+      major: 'Cognitive Science & Data Science',
     },
     {
       name: 'Andrew Chen',
       year: 'Sophomore',
       hometown: 'Chino Hills, CA',
       major: 'Business Administration',
-    },
-    {
-      name: 'David Yang',
-      year: 'Grad. Student',
-      hometown: 'Toronto, ON',
-      major: 'Chemical & Material Science Engineering',
     },
     {
       name: 'Edison Wong',
@@ -34,13 +28,19 @@ const RosterPage = () => {
       name: 'Eric Liu',
       year: 'Sophomore',
       hometown: 'Diamond Bar, CA',
-      major: 'Molecular & Environmental Biology',
+      major: 'Molecular Environmental Biology',
+    },
+    {
+      name: 'Grant Hayes',
+      year: 'Senior',
+      hometown: 'Gaithersburg, MD',
+      major: 'Economics & Statistics',
     },
     {
       name: 'Gregory Labella',
       year: 'Sophomore',
       hometown: 'Laguna Niguel, CA',
-      major: 'Pre-Business',
+      major: 'Political Economics',
     },
     {
       name: 'Haichao Yu',
@@ -54,26 +54,20 @@ const RosterPage = () => {
       hometown: 'Beijing, China',
       major: 'Chemistry',
     },
-    {
-      name: 'Yubang Chen',
-      year: 'Freshman',
-      hometown: 'Cincinnati, OH',
-      major: 'Computer Science & Spanish',
-    },
   ];
 
   const novicePlayers = [
     {
-      name: 'Chris Lamb',
-      year: 'Sophomore',
-      hometown: 'Sunland, CA',
-      major: 'Nuclear Engineering',
+      name: 'Ben Chen',
+      year: 'Freshman',
+      hometown: 'Cincinnati, OH',
+      major: 'Computer Science & Spanish',
     },
     {
       name: 'Chris Park',
       year: 'Freshman',
       hometown: 'Scottsdale, AZ',
-      major: 'Bio-Engineering',
+      major: 'Bioengineering',
     },
     {
       name: 'Ethan Willbrand',
@@ -88,16 +82,16 @@ const RosterPage = () => {
       major: 'Economics & Statitcs',
     },
     {
-      name: 'Jameson Hohbein',
-      year: 'Junior',
-      hometown: 'Brea, CA',
-      major: 'Political Science',
-    },
-    {
       name: 'Kevin Miao',
       year: 'Freshman',
       hometown: 'Eindhoven, The Netherlands',
-      major: 'Molecular & Cell Biology',
+      major: 'Molecular and Cell Biology',
+    },
+    {
+      name: 'Kevin Shi',
+      year: 'Freshman',
+      hometown: 'San Jose, CA',
+      major: 'Electrical Engineering & Computer Science',
     },
     {
       name: 'Sandeep Sainath',

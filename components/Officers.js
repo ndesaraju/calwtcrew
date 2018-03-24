@@ -8,7 +8,7 @@ import eric from '../assets/images/officers/eric.jpg';
 import greg from '../assets/images/officers/greg.jpg';
 import scott from '../assets/images/officers/scott.jpg';
 import alex from '../assets/images/officers/alex.jpg';
-import caroline from '../assets/images/officers/caroline.jpg';
+import andrew from '../assets/images/officers/andrew.jpg';
 
 
 const Officers = () => {
@@ -50,10 +50,10 @@ const Officers = () => {
       image: cassierobinson,
     },
     {
-      name: 'Caroline Romo',
-      position: 'Fundraising Officer',
-      email: 'carolineromo@berkeley.edu',
-      image: caroline,
+      name: 'Andrew Chen',
+      position: 'Apparel Officer',
+      email: 'andrewbchen@berkeley.edu',
+      image: andrew,
     },
     {
       name: 'Scott Shao',

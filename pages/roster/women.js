@@ -19,12 +19,6 @@ const RosterPage = () => {
       major: 'Cognitive Science',
     },
     {
-      name: 'Cameron Onodera',
-      year: 'Freshman',
-      hometown: 'Sacramento, CA',
-      major: 'Undeclared',
-    },
-    {
       name: 'Cassie Redding',
       year: 'Senior',
       hometown: 'Pasadena, CA',
@@ -70,7 +64,7 @@ const RosterPage = () => {
       name: 'Samantha Lai',
       year: 'Senior',
       hometown: 'Piedmont, CA',
-      major: 'Molecular & Cellular Bio. & Comp. Sci.',
+      major: 'Molecular and Cellular Biology & Computer Science',
     },
   ];
 
@@ -89,18 +83,6 @@ const RosterPage = () => {
       major: 'Economics & Statistics',
     },
     {
-      name: 'Caroline Romo',
-      year: 'Freshman',
-      hometown: 'Kailua, HI',
-      major: 'Undeclared',
-    },
-    {
-      name: 'Caroline Sobek',
-      year: 'Sophomore',
-      hometown: 'Portola Valley, CA',
-      major: 'Chemical Biology & Statistics',
-    },
-    {
       name: 'Christy Kang',
       year: 'Sophomore',
       hometown: 'Arcadia, CA',
@@ -110,7 +92,7 @@ const RosterPage = () => {
       name: 'Cindy Barrios',
       year: 'Senior',
       hometown: 'Los Angeles, CA',
-      major: 'Molecular Env. Biology, Microbiology',
+      major: 'Molecular Environmental Biology, Microbiology',
     },
     {
       name: 'Ekaterina Fedorova',
@@ -140,7 +122,7 @@ const RosterPage = () => {
       name: 'Lauren Meier',
       year: 'Freshman',
       hometown: 'Sunnyvale, CA',
-      major: 'Electrical Engineering & Comp. Sci.',
+      major: 'Electrical Engineering & Computer Science',
     },
     {
       name: 'Lily Zheng',
@@ -152,7 +134,7 @@ const RosterPage = () => {
       name: 'Linshanshan Wang',
       year: 'Sophomore',
       hometown: 'Jinan, China',
-      major: 'Molecular & Cellular Biology',
+      major: 'Molecular and Cellular Biology',
     },
     {
       name: 'Monica Naranjo',
@@ -164,7 +146,7 @@ const RosterPage = () => {
       name: 'Serena Kim',
       year: 'Sophomore',
       hometown: 'Fresno, CA',
-      major: 'Molecular & Cell. Bio. & Psychology',
+      major: 'Molecular and Cellular Biology & Psychology',
     },
     {
       name: 'Shreya Kareti',
@@ -182,7 +164,7 @@ const RosterPage = () => {
       name: 'Sylvia Illouz',
       year: 'Freshman',
       hometown: 'Palo Alto, CA',
-      major: 'Bio-Engineering',
+      major: 'Bioengineering',
     },
     {
       name: 'Youmna Rabie',
