@@ -102,7 +102,7 @@ export default class Navbar extends Component {
                 ALUMNI
               </Link>
               <Link to={prefixLink('/join/')} className="link">
-                JOIN US
+                <mark>JOIN US</mark>
               </Link>
             </div>
           </div>

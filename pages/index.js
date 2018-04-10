@@ -20,9 +20,9 @@ const IndexComponent = () => (
       </p>
       <p>
         If you‘re a high school senior with prior rowing experience and have already
-        applied to the College of Letters and Science, please fill out this form to be
-        considered for a Special Talent Recommendation from our Head Coach: <a href="http://goo.gl/forms/qcQLb7zL04">
-         http://goo.gl/forms/qcQLb7zL04</a>.
+        applied to the College of Letters and Science, please fill
+        out <a href="https://goo.gl/forms/dAQVy2MfB4iEQPZH3">this form</a> to be
+        considered for a Special Talent Recommendation from our Head Coach.
       </p>
       <p>
         *All other applicants, (i.e. those in other colleges, non-seniors) interested
@@ -30,7 +30,33 @@ const IndexComponent = () => (
       </p>
     </div>
     <div className="section__header">
-      LATEST NEWS - FALL 2017
+      LATEST NEWS - SPRING 2018
+    </div>
+    <div className="section__content">
+      <ul>
+        <li>
+          [April 8, 2018] - A successful first home race at the Oakland Estuary versus Sonoma State!
+          Full results are listed <a href="http://www.row2k.com/results/resultspage.cfm?UID=1021498F619705E0D7DDE4CBB13B31C3&cat=1">here</a>.
+        </li>
+        <li>
+          [April 2, 2018] - A big THANK YOU to the UCLA Mens&#39; Crew for a fun day of racing
+          on the beautiful Marina del Rey.
+        </li>
+        <li>
+          [March 30, 2018] - Until next year! See the full results from San Diego Crew
+          Classic <a href="https://www.regattacentral.com/regatta/results2/?job_id=5379&org_id=1385">here.</a>
+        </li>
+        <li>
+          [March 23, 2018] - Wish us luck as we send all four squads down to Southern California for
+          the San Diego Crew Classic and a dual versus our friends at UCLA!
+        </li>
+        <li>
+          [January 16, 2018] - Spring racing season has officially BEGUN!
+        </li>
+      </ul>
+    </div>
+    <div className="section__header">
+      FALL 2017
     </div>
     <div className="section__content">
       <ul>

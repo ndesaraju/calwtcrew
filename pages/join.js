@@ -20,19 +20,24 @@ const JoinComponent = () => (
         form to be considered for a <i>Special Talent Recommendation</i> from our head Coach:
         <br /><br />
         <div className="centered__content">
-          <a className="link" href="http://goo.gl/forms/qcQLb7zL04">
-            Special Talent Recommendation Form
-          </a>
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfRWAz4R_aQHqic-Y8TU2ndP5JXvXKaYyZ_cZaCys31_esMFQ/viewform?embedded=true"
+            width="760" height="700" frameBorder="0" marginHeight="0" marginWidth="0"
+          >
+            Loading...
+          </iframe>
         </div>
         <br />
         Although we are a club team, we can help you get into the university. Every year, the
         coaching staff writes letters of support for a few select candidates who meet or exceed
         our 2k requirement, who have good race results, and who have good grades and
         extracurriculars. This does not guarantee admission, but it can be of significant help to
-        you especially at a school like Cal where admissions are highly competitive. If you would
-        like to be considered for a letter of support, please contact Coach Perez at
-        <b> dougperez63@gmail.com</b> and be sure to include your 2k PR, height, weight, grades/GPA,
-        and race results. Priority will be given to athletes whose first choice school is Cal.
+        you especially at a school like Cal where admissions are highly competitive.
+        If you would like to be considered for a letter of support, please contact
+        Coach Angelides at
+        <a href="mailto:nangelides@berkeley.edu" target="_top">nangelides@berkeley.edu</a> and
+        be sure to include your 2k PR, height, weight, grades/GPA, and race results.
+        Priority will be given to athletes whose first choice school is Cal.
       </p>
     </div>
     <div className="section__header">
