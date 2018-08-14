@@ -1,5 +1,5 @@
 import React from 'react';
-import home from '../assets/images/home_test.jpg';
+import home from '../assets/images/home_test2.png';
 import ocf from '../assets/images/ocf-hosted-penguin.svg';
 
 const IndexComponent = () => (
@@ -8,15 +8,17 @@ const IndexComponent = () => (
       <img id="home" alt="" src={home} />
     </div>
     <div className="page__header">
-      CAL LIGHTWEIGHT CREW
+      CAL LIGHTWEIGHT ROWING
     </div>
     <div className="section__content">
       <p>
-        Cal Lightweight Crew is the only team on the West Coast dedicated to men‘s
+        California Lightweight Rowing is the only team on the West Coast dedicated to men‘s
         and women‘s lightweight rowing. For more information, please contact our
-        recruiting chairs, <a href="mailto:lydiachen@berkeley.edu" target="_top">Lydia Chen</a>,
-        or <a href="mailto:greg.labella@berkeley.edu" target="_top">Gregory LaBella</a>.
-        No experience is necessary&mdash;all are welcome.
+        recruiting chairs: <a href="mailto:vfong@berkeley.edu" target="_top">Vicky Fong</a>
+        , <a href="mailto:margherita711@berkeley.edu" target="_top">Margherita Tonini</a>
+        , <a href="mailto:sandeepsainath@berkeley.edu" target="_top">Sandeep Sainath</a>
+        , or <a href="mailto:ewillbrand@berkeley.edu" target="_top">Ethan Willbrand</a>. No
+        experience is necessary&mdash;all are welcome.
       </p>
       <p>
         If you‘re a high school senior with prior rowing experience and have already
@@ -88,10 +90,6 @@ const IndexComponent = () => (
             <li>Womens Collegiate Lightweight 4+ A [2nd Place]</li>
             <li>Womens Collegiate 4+ B [5th Place]</li>
           </ul>
-        </li>
-        <li>
-          [September 13, 2017] - Interested in rowing?
-          E-mail <a href="mailto:cegekko@berkeley.edu" target="_top"> Colby Gekko</a>!
         </li>
       </ul>
     </div>
