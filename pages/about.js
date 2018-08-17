@@ -42,7 +42,7 @@ const AboutComponent = () => (
         ambitious Cal student-athletes.
       </p>
       <p>
-        To row for Cal Lightweight Crew, students do not need prior experience
+        To row for Cal Lightweight Rowing, students do not need prior experience
         with rowing, nor do they need to immediately meet the weight standards
         (below 160 lbs for men; below 130 lbs for women). Novice rowers are taught
         how to row at the start of the season. Within two months of taking their
@@ -69,7 +69,7 @@ const AboutComponent = () => (
       <p>
         Rowing practices are typically held from 5am to 7:30am on weekday
         mornings, with most land training days beginning at 6am.
-        As a team, Cal Lightweight Crew receives minimal funding from the
+        As a team, Cal Lightweight Rowing receives minimal funding from the
         University, effectively allowing rowers to define the purpose and goals for
         themselves. At the conclusion of each season, team members
         nominate and elect officers to manage the team throughout the
@@ -79,7 +79,7 @@ const AboutComponent = () => (
         opportunities, and is being managed efficiently.
       </p>
       <p>
-        For more information about California Lightweight Crew, please contact our
+        For more information about California Lightweight Rowing, please contact our
         recruiting officers above.
       </p>
     </div>

@@ -4,14 +4,14 @@ import donate from '../assets/images/donate-now.png';
 const AlumniComponent = () => (
   <div>
     <div className="page__header">
-      CAL LIGHTWEIGHT CREW ALUMNI
+      CAL LIGHTWEIGHT ROWING ALUMNI
     </div>
     <div className="section__content">
       <p>
         Dear alumni:
       </p>
       <p>
-        Thank you for your generous support of Cal Lightweight Crew! Your
+        Thank you for your generous support of Cal Lightweight Rowing! Your
         generous moral and financial  support is what allows us to continue to
         maintain the equipment, grow the program and achieve greatness in the
         sport of lightweight rowing.
@@ -38,7 +38,7 @@ const AlumniComponent = () => (
       </p>
       <p>
         Sincerely, <br />
-        <i>Cal Lightweight Crew</i>
+        <i>Cal Lightweight Rowing</i>
       </p>
     </div>
   </div>

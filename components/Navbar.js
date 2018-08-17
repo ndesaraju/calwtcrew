@@ -58,7 +58,7 @@ export default class Navbar extends Component {
             </div>
             <div className="links" onClick={this.handleNavOpen_}>
               <div className="navbar__media">
-                <a href="https://www.facebook.com/californialightweightcrew/?ref=br_rs" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/californialightweightrowing/" target="_blank" rel="noopener noreferrer">
                   <FontAwesome
                     className="fb__icon"
                     name="facebook"

@@ -5,54 +5,10 @@ import join2 from '../assets/images/join2.jpg';
 const JoinComponent = () => (
   <div>
     <div className="page__header">
-      JOINING CAL LIGHTWEIGHT CREW
+      JOINING CAL LIGHTWEIGHT ROWING
     </div>
     <div className="centered__content">
       <img src={join1} alt="join1" />
-    </div>
-    <div className="section__header">
-      INCOMING FRESHMEN
-    </div>
-    <div className="section__content">
-      <p>
-        If you are a current high school senior with <u><b>prior rowing experience</b></u> and have
-        <u><b> already applied to the College of Letters and Science</b></u>, please fill out this
-        form to be considered for a <i>Special Talent Recommendation</i> from our head Coach:
-        <br /><br />
-        <div className="centered__content">
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSfRWAz4R_aQHqic-Y8TU2ndP5JXvXKaYyZ_cZaCys31_esMFQ/viewform?embedded=true"
-            width="760" height="700" frameBorder="0" marginHeight="0" marginWidth="0"
-          >
-            Loading...
-          </iframe>
-        </div>
-        <br />
-        Every year, the coaching staff writes letters of support for a few select
-        candidates who meet or exceed our 2k requirement, who have good race results,
-        and who have good grades and extracurriculars. This does not guarantee admission,
-        but it can be of significant help to you especially at a school like Cal
-        where admissions are highly competitive. If you would like to be considered for a
-        Letter of Support, please contact Coach Angelides at
-        <a href="mailto:nangelides@berkeley.edu" target="_top">nangelides@berkeley.edu</a> and
-        be sure to include your 2k PR, height, weight, grades/GPA, and race results.
-        Priority will be given to athletes whose first choice school is Cal.
-      </p>
-    </div>
-    <div className="section__header">
-      GENERAL APPLICANTS
-    </div>
-    <div className="section__content">
-      <p>
-        All other applicants, (i.e. those in other colleges, non-seniors) interested in rowing,
-        please email the recruitment chairs. To row for Cal Lightweight Crew, students do not need
-        prior experience with rowing, nor do they need to immediately meet the weight standards
-        (below 160 lbs for men; below 130 lbs for women).
-      </p>
-    </div>
-    <br />
-    <div className="centered__content">
-      <img src={join2} alt="join2" />
     </div>
     <div className="section__header">
       <br />
@@ -103,6 +59,51 @@ const JoinComponent = () => (
         <br />
       </p>
     </div>
+    <div className="section__header">
+      INCOMING FRESHMEN
+    </div>
+    <div className="section__content">
+      <p>
+        If you are a current high school senior with <u><b>prior rowing experience</b></u> and have
+        <u><b> already applied to the College of Letters and Science</b></u>, please fill out this
+        form to be considered for a <i>Special Talent Recommendation</i> from our head Coach:
+        <br /><br />
+        <div className="centered__content">
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfRWAz4R_aQHqic-Y8TU2ndP5JXvXKaYyZ_cZaCys31_esMFQ/viewform?embedded=true"
+            width="760" height="700" frameBorder="0" marginHeight="0" marginWidth="0"
+          >
+            Loading...
+          </iframe>
+        </div>
+        <br />
+        Every year, the coaching staff writes letters of support for a few select
+        candidates who meet or exceed our 2k requirement, who have good race results,
+        and who have good grades and extracurriculars. This does not guarantee admission,
+        but it can be of significant help to you especially at a school like Cal
+        where admissions are highly competitive. If you would like to be considered for a
+        Letter of Support, please contact Coach Angelides at
+        <a href="mailto:nangelides@berkeley.edu" target="_top">nangelides@berkeley.edu</a> and
+        be sure to include your 2k PR, height, weight, grades/GPA, and race results.
+        Priority will be given to athletes whose first choice school is Cal.
+      </p>
+    </div>
+    <div className="section__header">
+      GENERAL APPLICANTS
+    </div>
+    <div className="section__content">
+      <p>
+        All other applicants, (i.e. those in other colleges, non-seniors) interested in rowing,
+        please email the recruitment chairs. To row for Cal Lightweight Rowing, students do not need
+        prior experience with rowing, nor do they need to immediately meet the weight standards
+        (below 160 lbs for men; below 130 lbs for women).
+      </p>
+    </div>
+    <br />
+    <div className="centered__content">
+      <img src={join2} alt="join2" />
+    </div>
+
   </div>
 );
 
