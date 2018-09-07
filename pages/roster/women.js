@@ -7,6 +7,18 @@ import '../../css/roster.scss';
 const RosterPage = () => {
   const varsityPlayers = [
     {
+      name: 'Anna Mikkelborg',
+      year: 'Graduate Student',
+      hometown: 'Fox Island, WA',
+      major: 'Political Science, =d',
+    },
+    {
+      name: 'Ashley Nguyen',
+      year: 'Junior',
+      hometown: 'Fountain Valley, CA',
+      major: 'Mathematics & Computer Science',
+    },
+    {
       name: 'Brittney Nguyen',
       year: 'Senior',
       hometown: 'Pasadena, CA',
@@ -17,6 +29,12 @@ const RosterPage = () => {
       year: 'Sophomore',
       hometown: 'Houston, TX',
       major: 'Marine Biology',
+    },
+    {
+      name: 'Ekaterina Fedorova',
+      year: 'Sophomore',
+      hometown: 'Cerritos, CA',
+      major: 'Economics & Statistics',
     },
     {
       name: 'Margherita Tonini',
@@ -36,75 +54,17 @@ const RosterPage = () => {
       hometown: 'Hong Kong',
       major: 'Marine Science',
     },
-  ];
-
-
-  const novicePlayers = [
     {
-      name: 'Ashley Nguyen',
-      year: 'Junior',
-      hometown: 'Fountain Valley, CA',
-      major: 'Mathematics & Computer Science',
+      name: 'Pallavi Mundra',
+      year: 'Freshman',
+      hometown: 'The Woodlands, TX',
+      major: 'Pre-Business, Economics',
     },
     {
-      name: 'Audrey Chang',
-      year: 'Junior',
-      hometown: 'Orinda, CA',
-      major: 'Economics & Statistics',
-    },
-    {
-      name: 'Christy Kang',
-      year: 'Junior',
-      hometown: 'Arcadia, CA',
-      major: 'Economics & Statistics',
-    },
-    {
-      name: 'Ekaterina Fedorova',
-      year: 'Sophomore',
-      hometown: 'Cerritos, CA',
-      major: 'Economics & Statistics',
-    },
-    {
-      name: 'Haley Minish',
-      year: 'Senior',
-      hometown: 'Los Angeles, CA',
-      major: 'English',
-    },
-    {
-      name: 'Jana Quan',
-      year: 'Sophomore',
-      hometown: 'San Francisco, CA',
-      major: 'Materials Science & Engineering',
-    },
-    {
-      name: 'Lauren Meier',
+      name: 'Shreeya Garg',
       year: 'Sophomore',
       hometown: 'Sunnyvale, CA',
-      major: 'Electrical Engineering & Computer Science',
-    },
-    {
-      name: 'Lily Zheng',
-      year: 'Junior',
-      hometown: 'San Diego, CA',
-      major: 'Mechanical Engineering',
-    },
-    {
-      name: 'Linshanshan Wang',
-      year: 'Junior',
-      hometown: 'Jinan, China',
-      major: 'Molecular and Cellular Biology',
-    },
-    {
-      name: 'Monica Naranjo',
-      year: 'Junior',
-      hometown: 'Santa Ana, CA',
-      major: 'Architecture & Energy Engineering',
-    },
-    {
-      name: 'Serena Kim',
-      year: 'Junior',
-      hometown: 'Fresno, CA',
-      major: 'Molecular and Cellular Biology & Psychology',
+      major: 'Microbial Biology',
     },
     {
       name: 'Shreya Kareti',
@@ -113,23 +73,22 @@ const RosterPage = () => {
       major: 'History of Art',
     },
     {
-      name: 'Siena Ramirez',
-      year: 'Junior',
-      hometown: 'Riverside, CA',
-      major: 'Public Health & Political Science',
+      name: 'Sophea Bonne',
+      year: 'Freshman',
+      hometown: 'Sunnyvale, CA',
+      major: 'Chemical Engineering',
     },
-    {
-      name: 'Sylvia Illouz',
-      year: 'Sophomore',
-      hometown: 'Palo Alto, CA',
-      major: 'Bioengineering',
-    },
+  ];
+
+
+  const novicePlayers = [
+
   ];
 
   return (
     <div className="container">
       <div className="page__header">
-        2017-2018 Varsity & Novice Women
+        2018-2019 Varsity & Novice Women
       </div>
       <div className="image">
         <img alt="" src={photo} />

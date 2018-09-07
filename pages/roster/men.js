@@ -10,7 +10,7 @@ const RosterPage = () => {
       name: 'Alex Nakagawa',
       year: 'Junior',
       hometown: 'South Pasadena, CA',
-      major: 'Cognitive Science & Data Science',
+      major: 'Data Science & Computer Science',
     },
     {
       name: 'Andrew Chen',
@@ -25,37 +25,16 @@ const RosterPage = () => {
       major: 'Molecular Environmental Biology',
     },
     {
-      name: 'Haichao Yu',
-      year: 'Junior',
-      hometown: 'Danville, CA',
-      major: 'Economics & Applied Mathematics',
-    },
-    {
-      name: 'Scott Shao',
-      year: 'Junior',
-      hometown: 'Beijing, China',
-      major: 'Chemistry',
-    },
-  ];
-
-  const novicePlayers = [
-    {
-      name: 'Ben Chen',
-      year: 'Sophomore',
-      hometown: 'Cincinnati, OH',
-      major: 'Computer Science & Spanish',
-    },
-    {
-      name: 'Chris Park',
-      year: 'Sophomore',
-      hometown: 'Scottsdale, AZ',
-      major: 'Bioengineering',
-    },
-    {
       name: 'Ethan Willbrand',
       year: 'Sophomore',
       hometown: 'Cincinnati, OH',
       major: 'Cognitive Science',
+    },
+    {
+      name: 'Haichao Yu',
+      year: 'Junior',
+      hometown: 'Danville, CA',
+      major: 'Economics & Applied Mathematics',
     },
     {
       name: 'Jacob Fajnor',
@@ -64,10 +43,16 @@ const RosterPage = () => {
       major: 'Economics & Statitcs',
     },
     {
+      name: 'Joseph Capozza',
+      year: 'Junior',
+      hometown: 'Skaneateles, NY',
+      major: 'Chemical Engineering',
+    },
+    {
       name: 'Kevin Miao',
       year: 'Sophomore',
       hometown: 'Eindhoven, The Netherlands',
-      major: 'Molecular and Cell Biology',
+      major: 'Molecular and Cell Biology & Data Science',
     },
     {
       name: 'Kevin Shi',
@@ -81,12 +66,22 @@ const RosterPage = () => {
       hometown: 'Chennai, India',
       major: 'Operations Reserach & Management Science',
     },
+    {
+      name: 'Scott Shao',
+      year: 'Junior',
+      hometown: 'Beijing, China',
+      major: 'Chemistry',
+    },
+  ];
+
+  const novicePlayers = [
+
   ];
 
   return (
     <div className="container">
       <div className="page__header">
-        2017-2018 Varsity & Novice Men
+        2018-2019 Varsity & Novice Men
       </div>
       <div className="image">
         <img alt="" src={photo} />

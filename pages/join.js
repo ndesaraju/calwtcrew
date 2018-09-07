@@ -66,7 +66,7 @@ const JoinComponent = () => (
       <p>
         If you are a current high school senior with <u><b>prior rowing experience</b></u> and have
         <u><b> already applied to the College of Letters and Science</b></u>, please fill out this
-        form to be considered for a <i>Special Talent Recommendation</i> from our head Coach:
+        form to be considered for a <i>Special Talent Recommendation</i> from our head coach:
         <br /><br />
         <div className="centered__content">
           <iframe
@@ -83,7 +83,7 @@ const JoinComponent = () => (
         but it can be of significant help to you especially at a school like Cal
         where admissions are highly competitive. If you would like to be considered for a
         Letter of Support, please contact Coach Angelides at
-        <a href="mailto:nangelides@berkeley.edu" target="_top">nangelides@berkeley.edu</a> and
+        <a href="mailto:angelides@berkeley.edu" target="_top">angelides@berkeley.edu</a> and
         be sure to include your 2k PR, height, weight, grades/GPA, and race results.
         Priority will be given to athletes whose first choice school is Cal.
       </p>
