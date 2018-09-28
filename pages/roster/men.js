@@ -10,7 +10,7 @@ const RosterPage = () => {
       name: 'Alex Nakagawa',
       year: 'Junior',
       hometown: 'South Pasadena, CA',
-      major: 'Data Science & Computer Science',
+      major: 'Data Science',
     },
     {
       name: 'Andrew Chen',
