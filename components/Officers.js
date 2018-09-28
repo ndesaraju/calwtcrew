@@ -3,13 +3,10 @@ import Photo from '../components/Photo';
 import alex from '../assets/images/officers/alex.jpg';
 import andrew from '../assets/images/officers/andrew.jpg';
 import brittney from '../assets/images/officers/brittney.jpg';
-import cassie from '../assets/images/officers/cassierobinson.jpg';
 import eric from '../assets/images/officers/eric.jpg';
 import ethan from '../assets/images/officers/ethan.jpg';
 import haichao from '../assets/images/officers/haichao.jpg';
-import jana from '../assets/images/officers/jana.jpg';
 import kevin from '../assets/images/officers/kevin.jpg';
-import lauren from '../assets/images/officers/lauren.jpg';
 import margherita from '../assets/images/officers/margherita.jpg';
 import niharika from '../assets/images/officers/niharika.jpg';
 import sandeep from '../assets/images/officers/sandeep.jpg';
@@ -49,12 +46,6 @@ const Officers = () => {
       image: kevin,
     },
     {
-      name: 'Lauren Meier',
-      position: 'Travel and Media Officer',
-      email: 'meier.lauren@berkeley.edu',
-      image: lauren,
-    },
-    {
       name: 'Sandeep Sainath',
       position: 'Recruitment Co-Chair',
       email: 'sandeepsainath@berkeley.edu',
@@ -79,12 +70,6 @@ const Officers = () => {
       image: vicky,
     },
     {
-      name: 'Cassie Robinson',
-      position: 'Apparel Co-Chair',
-      email: 'cassierobinson@berkeley.edu',
-      image: cassie,
-    },
-    {
       name: 'Niharika Desaraju',
       position: 'Apparel Co-Chair',
       email: 'niharika.desaraju@berkeley.edu',
@@ -95,12 +80,6 @@ const Officers = () => {
       position: 'Fundraising Officer',
       email: 'ericliu1131@berkeley.edu',
       image: eric,
-    },
-    {
-      name: 'Jana Quan',
-      position: 'Social Chair',
-      email: 'jaquan1@berkeley.edu',
-      image: jana,
     },
   ];
 

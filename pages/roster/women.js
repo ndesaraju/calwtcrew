@@ -8,9 +8,9 @@ const RosterPage = () => {
   const varsityPlayers = [
     {
       name: 'Anna Mikkelborg',
-      year: 'Graduate Student',
+      year: 'Graduate',
       hometown: 'Fox Island, WA',
-      major: 'Political Science, =d',
+      major: 'Political Science',
     },
     {
       name: 'Ashley Nguyen',
